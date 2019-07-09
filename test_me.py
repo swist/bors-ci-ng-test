@@ -1,5 +1,5 @@
 from unittest import TestCase
-from time import time
+import time
 
 
 class TestIcleHelper(TestCase):
