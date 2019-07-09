@@ -1,0 +1,5 @@
+status = [ 'ci/circle/%' ]
+
+[committer]
+name = "King Ban"
+email = "ban@example.com"
