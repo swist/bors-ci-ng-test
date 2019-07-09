@@ -8,7 +8,7 @@ jobs:
       - image: circleci/python
     steps:
       - checkout
-      - run: python test_me.py
+      - run: python -m unittest test_me.py
 
 workflows:
   "Hello Workflow":
