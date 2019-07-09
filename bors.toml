@@ -3,3 +3,5 @@ status = [ 'ci/circleci%' ]
 [committer]
 name = "King Ban"
 email = "ban@example.com"
+
+delete_merged_branches = true
