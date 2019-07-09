@@ -1,4 +1,4 @@
-status = [ 'ci/circle/%' ]
+status = [ 'ci/circleci%' ]
 
 [committer]
 name = "King Ban"
