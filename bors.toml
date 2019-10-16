@@ -1,7 +1,7 @@
-status = [ 'ci/circleci%' ]
+status = ['ci/circleci%']
+block_labels = ["DO NOT MERGE", "duplicate"]
 
 [committer]
 name = "King Ban"
 email = "ban@example.com"
-
 delete_merged_branches = true
