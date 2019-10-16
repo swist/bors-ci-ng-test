@@ -1,7 +1,6 @@
-status = [ 'ci/circleci%' ]
+status = ['ci/circleci: hello/hello-build', 'ci/circleci: test_icle_helper', 'ci/circleci: am_i_still_there']
 
 [committer]
 name = "King Ban"
 email = "ban@example.com"
-
 delete_merged_branches = true

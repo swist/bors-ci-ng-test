@@ -9,9 +9,15 @@ jobs:
     steps:
       - checkout
       - run: python -m unittest test_me.py
+  am_i_still_there:
+    docker:
+      - image: circleci/python
+    steps:
+      - run: "false"
 
 workflows:
   "Hello Workflow":
     jobs:
       - hello/hello-build
       - test_icle_helper
+      - am_i_still_there
