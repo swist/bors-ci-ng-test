@@ -1,0 +1,2 @@
+def bifurcate():
+    return True
