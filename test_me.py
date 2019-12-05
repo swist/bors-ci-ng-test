@@ -1,5 +1,6 @@
 from unittest import TestCase
 from bifurcate import bifurcate
+from drive import drive
 import time
 
 
@@ -9,3 +10,6 @@ class TestIcleHelper(TestCase):
 
     def test_bifurcate(self):
         assert bifurcate()
+
+    def test_drive(self):
+        assert drive
