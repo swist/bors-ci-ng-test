@@ -1,5 +1,5 @@
 from unittest import TestCase
-from bifurcate import bifurcate
+from bifurcate import bifurcate_crab
 import time
 
 
@@ -8,4 +8,4 @@ class TestIcleHelper(TestCase):
         assert 1 == 1
 
     def test_bifurcate(self):
-        assert bifurcate()
+        assert bifurcate_crab()
