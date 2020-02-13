@@ -1,4 +1,7 @@
 status = ['ci/circleci%']
+pr_status = [
+    'ci/circleci: test_foo'
+]
 block_labels = ["DO NOT MERGE", "duplicate"]
 
 [committer]
