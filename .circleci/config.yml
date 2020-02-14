@@ -10,8 +10,16 @@ jobs:
       - checkout
       - run: python -m unittest test_me.py
 
+  test_foo:
+    docker:
+      - image: circleci/python
+    steps:
+      - checkout
+      - run: python -m unittest test_foo.py
+
 workflows:
   "Hello Workflow":
     jobs:
       - hello/hello-build
       - test_icle_helper
+      - test_foo
