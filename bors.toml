@@ -1,5 +1,7 @@
 status = ['ci/circleci%']
 block_labels = ["DO NOT MERGE", "duplicate"]
+use_codeowners = true
+required_approvals = 1
 
 [committer]
 name = "King Ban"
