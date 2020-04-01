@@ -9,3 +9,7 @@ class TestIcleHelper(TestCase):
 
     def test_bifurcate(self):
         assert bifurcate()
+
+    def test_that_takes_some_time(self):
+        time.sleep(1 * 60)  # sleep one minute
+        assert True
